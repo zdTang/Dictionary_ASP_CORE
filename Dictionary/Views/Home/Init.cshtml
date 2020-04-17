@@ -1,0 +1,44 @@
+﻿
+@{
+    //Layout = null;
+    ViewData["Title"] = @ViewBag.userName;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+</head>
+<body>
+    <div class="text-center">
+        <h1 class="display-4">Word Arena</h1>
+     
+
+        @*try to center the input box*@
+        <div class="row justify-content-center">
+            <div class="col-auto">
+
+              
+                    <label for="word">Input your Word:</label>
+                    <input type="text" class="form-control" id="word">
+
+                
+
+
+                <div id="con"></div>
+                <button type="submit" class="btn btn-primary btn-block" id="ok">  OK  </button>
+
+
+
+
+
+
+                <div class="text-danger" id="tips"></div>
+                <div class="text-danger" id="error"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
